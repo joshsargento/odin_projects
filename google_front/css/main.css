@@ -133,7 +133,7 @@
     bottom: 0;
     display: inline-block;
     width: 100%;
-    padding: 15px;
+    padding: 15px 15px 15px 20px;
     text-decoration: none;
     font-size: 14px;
     color: rgba(0,0,0,0.54);
@@ -143,4 +143,7 @@
     border-bottom-style: solid;
     border-bottom-color: rgba(0,0,0,0.22);
     border-bottom-width: 0.5px;
+    border-top-style: solid;
+    border-top-color: rgba(0,0,0,0.22);
+    border-top-width: 0.5px;
 }
