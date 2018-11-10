@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Print prime numbers up to n </title>
+</head>
+<body>
+  <script>
+n = 30;
+a = 3;
+nextPrime:
+for (a = 0; a <=30; ++a) {
+if (a %2 == 0) {
+    continue;
+}
+else {
+    for (let b = 3; b < a; b +=2) {
+    if (a%b == 0)
+    continue nextPrime; 
+    }
+    }
+alert(a);
+
+}
+
+  </script>
+</body>
+</html>
